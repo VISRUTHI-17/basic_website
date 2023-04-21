@@ -1,0 +1,39 @@
+.mainpage-div{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 80%;
+    width: 100%;
+}
+
+.left-mainpage-div{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    height: 100%;
+    width: 30%;
+    padding: 2rem;
+    line-height: 0%;
+}
+
+.button-div{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:40px;
+    width: 130px;
+    border-radius: 4px;
+    color: white;
+    background-image: linear-gradient(to right, #c99826, #f0bf62);
+    font-weight: bold;
+}
+
+.right-mainpage-div{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    margin: 15px;
+    height: 100%;
+    width: 70%;
+}
